@@ -18,6 +18,7 @@ class PatientAccount
         void setCharges(double);
         double get_charges();
         int get_days_in_hospital();
+        double updateCharges(double daily_rate, int days_in_hospital, double charges);
         PatientAccount();
 
 };
